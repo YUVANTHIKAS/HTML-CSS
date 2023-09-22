@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class ="cards">
+    <div class="card">
+        <img src="germany.jpg">
+        <div class ="text">
+            <h3>Germany</h3>
+            <p>Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches.</p>
+            <button>Explore more</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="france.jpg">
+        <div class ="text">
+            <h3>France</h3>
+            <p>France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches</p>
+            <button>Explore more...</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="venice.jpg">
+        <div class ="text">
+            <h3>Venice</h3>
+            <p>Venice, the capital of northern Italy’s Veneto region, is built on more than 100 small islands  </p>
+            <button>Explore more...</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="denmark.jpg">
+        <div class ="text">
+            <h3>Denmark</h3>
+            <p>Denmark is a Scandinavian country comprising the Jutland Peninsula and numerous islands.</p>
+            <button>Explore more...</button>
+        </div>
+    </div>
+
+    
+</body>
+<style>
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .card {
+        flex: 0 0 200px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        height: 350px;
+
+    }
+
+    .card img {
+        max-width: 100%;
+    }
+
+    .card .text {
+        padding: 0px 20px 0px;
+    }
+
+    .card .text>button {
+        background: gray;
+        border: 0;
+        color: white;
+        padding: 10px;
+        width: 100%;
+    }
+</style>
+
+</html>
+</html>
